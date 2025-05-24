@@ -1,0 +1,34 @@
+{
+  "name": "workflow-collab-platform-backend",
+  "version": "1.0.0",
+  "description": "Backend for a powered workflow automation and creative collaboration platform.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "bcrypt": "^5.0.1",
+    "mongoose": "^5.10.9",
+    "axios": "^0.21.1",
+    "web3": "^1.3.6", 
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "workflow",
+    "automation",
+    "collaboration",
+    "AI",
+    "blockchain",
+    "JWT",
+    "encryption"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
